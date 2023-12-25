@@ -1,16 +1,21 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
+import Layout from '../components/layout'
+import TypeWriter from '../components/typewriter'
 
 const IndexPage = () => {
   return (
-    <main>
-      <h1>Welcome to my Gatsby site!</h1>
-      <Link to="/about">About</Link>
-      <p>I'm making this by following the Gatsby Tutorial.</p>
-    </main>
+    // <Layout pageTitle="Home Page">
+      <Layout>
+        <TypeWriter message="Welcome to my Personal Portfolio.">
+          
+        </TypeWriter>
+    </Layout>
   )
 }
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <>
+  <title>Home Page</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
+</>
 
 export default IndexPage

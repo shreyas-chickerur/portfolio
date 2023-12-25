@@ -16,7 +16,9 @@
   },
   "dependencies": {
     "gatsby": "^5.13.0",
+    "gatsby-source-filesystem": "^5.13.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "typeit-react": "^2.7.0"
   }
 }
