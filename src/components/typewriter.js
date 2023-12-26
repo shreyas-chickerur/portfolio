@@ -8,7 +8,7 @@ const TypeWriter = ({message, children}) => {
         <div className="App">
             <div className={Writer}>
                 <TypeIt options={{
-                speed: 50,
+                speed: 60,
                 waitUntilVisible: true
                 }}><span className={typeWriterText}>{message}</span></TypeIt>
             </div>
