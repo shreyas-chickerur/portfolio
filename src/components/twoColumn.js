@@ -1,6 +1,6 @@
 import { StaticImage } from 'gatsby-plugin-image'
 import * as React from 'react'
-import { Row, Column, Box } from './twoColumn.module.css'
+import { Row, Column, Box, columnHeader } from './twoColumn.module.css'
 
 
 
@@ -14,7 +14,7 @@ const TwoColumn = () => {
                 </div>
             </div>
             <div class={Column}>
-                <h2>Column 2</h2>
+                <h2 class = { columnHeader}>About Me</h2>
                 <p>Some text..</p>
             </div>
         </div>
