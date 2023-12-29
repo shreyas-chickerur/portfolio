@@ -1,6 +1,6 @@
 import { StaticImage } from 'gatsby-plugin-image'
 import * as React from 'react'
-import { Row, Column } from './twoColumn.module.css'
+import { Row, Column, Box } from './twoColumn.module.css'
 
 
 
@@ -8,7 +8,10 @@ const TwoColumn = () => {
     return (
         <div class={Row}>
             <div class={Column}>
-                <StaticImage src = "../images/formalPic.jpg"/>
+                <div>
+                    {/* <StaticImage class = { BackgroundImage }src = "../images/blackSquare.webp"/> */}
+                    <StaticImage class = { Box } src = "../images/formalPic.jpg"/>
+                </div>
             </div>
             <div class={Column}>
                 <h2>Column 2</h2>

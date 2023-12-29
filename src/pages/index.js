@@ -1,7 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import TypeWriter from '../components/typewriter'
-import LayeredImage from '../components/layeredImage'
 
 
 const IndexPage = () => {
@@ -9,9 +8,6 @@ const IndexPage = () => {
     // <Layout pageTitle="Home Page">
       <Layout>
         <TypeWriter message="Welcome to my Personal Portfolio"></TypeWriter>
-        <div style={{textAlign: `center`}}>
-          <LayeredImage></LayeredImage>
-        </div>
     </Layout>
   )
 }
