@@ -10,7 +10,7 @@ const IndexPage = () => {
   return (
     // <Layout pageTitle="Home Page">
       <Layout>
-        <TypeWriterHead message="Welcome to my Personal Portfolio" startDelay="0" textType="writerBody"></TypeWriterHead>
+        <TypeWriterHead message="Welcome to my work" startDelay="0" textType="writerBody"></TypeWriterHead>
         
         <ThreeColumn></ThreeColumn>
     </Layout>
