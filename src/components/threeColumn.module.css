@@ -1,12 +1,34 @@
 * {
     box-sizing: border-box;
 }
-  
-.DoubleColumn {
+
+
+.TripleColumnOne {
     float: left;
-    width: 50%;
+    width: 30%;
     padding: 50px;
-    
+    background-color: #615019;
+    margin: 10px;
+    border-radius: 25px;
+    margin-left: 50px;
+}
+
+.TripleColumnTwo {
+    float: left;
+    width: 30%;
+    padding: 50px;
+    background-color: #615019;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.TripleColumnThree {
+    float: left;
+    width: 30%;
+    padding: 50px;
+    background-color: #615019;
+    margin: 10px;
+    border-radius: 25px;
 }
   
 .Row:after {
@@ -37,4 +59,12 @@
 
 .column-header {
     font-family: 'Montserrat';
+    text-align: center;
+    color: #e5d49c;
+}
+
+.column-body {
+    font-family: 'Montserrat';
+    text-align: center;
+    color:white;
 }
