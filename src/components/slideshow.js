@@ -1,6 +1,6 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react'
-import {slideshowBg, imageItem,  sliderWrapper, imageList} from './slideshow.module.css'
+import {slideshowBg, imageItem,  sliderWrapper, imageList} from '../styles/slideshow.module.css'
 
 
 const Slideshow = ({message, startDelay}) => {
