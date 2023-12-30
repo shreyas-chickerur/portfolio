@@ -3,6 +3,7 @@
     margin: 0px;
     list-style-type: none;
     overflow: hidden;
+    
 }
 
 .nav-bar-text{
@@ -29,6 +30,7 @@
 .nav-bar-item-other {
     float:right;
 }
+
 
 
 
