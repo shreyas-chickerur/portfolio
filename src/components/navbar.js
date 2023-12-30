@@ -12,6 +12,7 @@ const NavBar = () => {
         <nav className={navBar}>
         <ul>
           <li className={navBarItemHome}><Link to="/" className={navBarText}>Shreyas Chickerur</Link></li>
+          <li className={navBarItemOther}><Link to="/pictures" className={navBarText}>Pictures</Link></li>
           <li className={navBarItemOther}><Link to="/work" className={navBarText}>Work</Link></li>
           <li className={navBarItemOther}><Link to="/about" className={navBarText}>About</Link></li>
         </ul>
