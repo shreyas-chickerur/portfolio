@@ -9,9 +9,11 @@ import Slideshow from '../components/slideshow'
 const IndexPage = () => {
   return (
       <Layout>
+
         <TypeWriterHead message="Welcome to my work" startDelay="0" textType="writerBody">
         </TypeWriterHead>
         <Slideshow message="Welcome to my work" startDelay="0" textType="writerBody"></Slideshow>
+
     </Layout>
   )
 }
