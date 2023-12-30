@@ -27,6 +27,7 @@ const Slideshow = ({message, startDelay}) => {
             <StaticImage class={imageItem} src="../images/galleryPics/galleryPic10.jpg"/>
             <StaticImage class={imageItem} src="../images/galleryPics/galleryPic11.jpg"/>
             <StaticImage class={imageItem} src="../images/galleryPics/galleryPic12.JPG"/>
+            <StaticImage class={imageItem} src="../images/galleryPics/galleryPic31.JPG"/>
             <StaticImage class={imageItem} src="../images/galleryPics/galleryPic13.JPG"/>
             <StaticImage class={imageItem} src="../images/galleryPics/galleryPic14.JPG"/>
             <StaticImage class={imageItem} src="../images/galleryPics/galleryPic15.JPG"/>
@@ -45,7 +46,7 @@ const Slideshow = ({message, startDelay}) => {
             <StaticImage class={imageItem} src="../images/galleryPics/galleryPic28.JPG"/>
             <StaticImage class={imageItem} src="../images/galleryPics/galleryPic29.PNG"/>
             <StaticImage class={imageItem} src="../images/galleryPics/galleryPic30.JPG"/>
-            <StaticImage class={imageItem} src="../images/galleryPics/galleryPic31.JPG"/>
+            
             
         </ul>
         {/* <button id="next-slide" class={`slideButton materialSymbolsRounded`}>
