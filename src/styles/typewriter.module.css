@@ -3,13 +3,15 @@
     text-align: center;
     font-size: 100px;
     padding: 100px;
-    
+    font-family: "Montserrat";
+    color:black;
 }
 
 .BodyWriter {
     margin: 40px;
     text-align: center;
     font-size: 35px;
+    font-family: "Montserrat";
     
 }
 
@@ -26,5 +28,5 @@
 }
 
 .class-writer-bg {
-    background-color:#e7d5b8;
+    /* background-color:#685f4d; */
 }

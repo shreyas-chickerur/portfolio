@@ -16,7 +16,7 @@ const TypeWriterHead = ({message, startDelay}) => {
                         startDelay: parseInt(startDelay, 10)
                         }}
                         getBeforeInit={(instance) => { 
-                            instance.type(message).pause(750).delete(4).pause(1000).type("story").pause(1000).delete(5).pause(1000).type("life.");
+                            instance.type(message).pause(2000).delete(4).pause(1500).type("story").pause(2000).delete(5).pause(1500).type("life");
                                 return instance;
                         }}
                     />
