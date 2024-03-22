@@ -2,6 +2,7 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import TypeWriterHead from '../components/typewriterhead'
 import Slideshow from '../components/slideshow'
+import About from '../components/about'
 
 
 
@@ -10,9 +11,9 @@ const IndexPage = () => {
   return (
       <Layout>
 
-        <TypeWriterHead message="Welcome to my work" startDelay="0" textType="writerBody">
-        </TypeWriterHead>
+        <TypeWriterHead message="Welcome to my work" startDelay="0" textType="writerBody"></TypeWriterHead>
         <Slideshow message="Welcome to my work" startDelay="0" textType="writerBody"></Slideshow>
+        <About message="Welcome to my work" startDelay="0" textType="writerBody"></About>
 
     </Layout>
   )

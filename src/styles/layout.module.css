@@ -3,11 +3,19 @@
     margin: 0px;
     list-style-type: none;
     overflow: hidden;
-    
+    /* background-color: #d6c5b9; */
+}
+
+.slideshow-row{
+    display: flex;
+  justify-content: space-between;
+  animation-duration: 15s; /* Increase the duration for slower animation */
+  animation-iteration-count: infinite;
+  padding:30px;
 }
 
 .nav-bar-text{
-    color:#674e38;
+    color:black;
     text-decoration: none;
     padding:30px;
     display: block;
